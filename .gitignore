@@ -42,11 +42,6 @@ outputs/
 models/*
 !models/.gitkeep
 
-# Akademik raporlar ve Office belgeleri
-
-*.docx
-*.doc
-~$*
 
 # Log / geçici
 *.log
