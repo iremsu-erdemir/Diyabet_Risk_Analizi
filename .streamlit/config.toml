@@ -1,0 +1,9 @@
+# Streamlit 1.46+: yalnızca [theme] desteklenir; [theme.light]/[theme.dark] geçersiz.
+# Karanlık mod: uygulama içi ⋮ → Ayarlar → Tema (Streamlit varsayılan koyu tema).
+
+[theme]
+base = "light"
+primaryColor = "#FF4B4B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#1F2933"

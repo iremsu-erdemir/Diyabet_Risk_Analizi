@@ -1,0 +1,53 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ortam / gizli dosyalar
+.env
+.env.*
+!.env.example
+.cursor/
+.streamlit/secrets.toml
+
+# IDE / işletim sistemi
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ham veri (Kaggle: python main.py download veya manuel kopyalama)
+data/raw/*
+!data/raw/.gitkeep
+
+# Eğitim çıktıları — yeniden üretilebilir (main.py train / report)
+outputs/
+
+# Modeller — yeniden üretilebilir (main.py train veya Streamlit ilk tahmin)
+models/*
+!models/.gitkeep
+
+# Akademik raporlar ve Office belgeleri
+
+*.docx
+*.doc
+~$*
+
+# Log / geçici
+*.log
+*.tmp
